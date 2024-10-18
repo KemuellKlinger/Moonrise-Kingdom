@@ -35,6 +35,7 @@
   "name":"Moonrise Kingdom",
   "resources":[
     {"id":{"name":"player","path":"objects/player/player.yy",},},
+    {"id":{"name":"wall","path":"objects/wall/wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
