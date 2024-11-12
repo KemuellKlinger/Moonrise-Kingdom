@@ -34,6 +34,7 @@
   },
   "name":"Moonrise Kingdom",
   "resources":[
+
     {"id":{"name":"obj_bloco","path":"objects/obj_bloco/obj_bloco.yy",},},
     {"id":{"name":"obj_colisao","path":"objects/obj_colisao/obj_colisao.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
