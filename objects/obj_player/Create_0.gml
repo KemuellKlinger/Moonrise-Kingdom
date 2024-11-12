@@ -5,9 +5,9 @@
 event_inherited();
 
 velocidade = 5;
-gravidade = 0.3;
+gravidade = 0.45;
 
-forca_pulo = -7;
+forca_pulo = -9;
 
 function input_player(){
 	var _left, _right, _jump;
@@ -16,7 +16,7 @@ function input_player(){
 	_right = keyboard_check(vk_right);
 	_jump = keyboard_check(vk_space);
 	
-	velh = (_right - _left) *velocidade;
+	velh = (_right - _left) * velocidade;
 	
 	var _no_chao = place_meeting(x, y + 1, obj_bloco);
 	
