@@ -1,6 +1,3 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
 if(instance_exists(obj_player)){
 	var _alvo = obj_player;
 	
@@ -10,6 +7,5 @@ if(instance_exists(obj_player)){
 }
 
 camera_set_view_border(view_camera[0], 390, 220){
-
 
 }
