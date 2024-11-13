@@ -30,3 +30,6 @@ function input_player(){
 	}
 
 }
+
+// Identifique o tilemap do chão e armazene seu ID
+tilemap_id = layer_tilemap_get_id("Tiles_Terra"); // Substitua pelo nome exato da camada de tile
