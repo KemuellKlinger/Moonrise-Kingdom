@@ -10,8 +10,8 @@ esquerda = keyboard_check(ord("A"));
 baixo = keyboard_check(ord("S"));
 
 hveloc = (direita - esquerda) * veloc;
-
-if place_meeting(x + hveloc, y, obj_bloco){
+colisaoX = place_meeting(x + hveloc, y, obj_bloco);
+if colisaoX{
 	while !place_meeting(x + sign(hveloc), y, obj_bloco){
 		x += sign(hveloc);
 	}
@@ -22,9 +22,11 @@ x += hveloc;
 
 vveloc = (baixo - cima) * veloc;
 
-if place_meeting(x, y + vveloc, obj_bloco){
+colisaoY = place_meeting(x, y + vveloc, obj_bloco);
+
+if colisaoY{
 	while !place_meeting(x , y + sign(vveloc), obj_bloco){
-		y += sign(hveloc);
+		y += sign(vveloc);
 	}
 	vveloc = 0;
 }
