@@ -165,6 +165,8 @@
     {"id":{"name":"Window_04","path":"sprites/Window_04/Window_04.yy",},},
     {"id":{"name":"Wooden_Barrel","path":"sprites/Wooden_Barrel/Wooden_Barrel.yy",},},
     {"id":{"name":"Wooden_Crate","path":"sprites/Wooden_Crate/Wooden_Crate.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
+    {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

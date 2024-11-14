@@ -19,7 +19,7 @@
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9baff5cc-881a-4573-9994-f32c085b635e","blendMode":0,"displayName":"default","isLocked":false,"name":"9baff5cc-881a-4573-9994-f32c085b635e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9baff5cc-881a-4573-9994-f32c085b635e","blendMode":3,"displayName":"default","isLocked":false,"name":"9baff5cc-881a-4573-9994-f32c085b635e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Ground_11",
   "nineSlice":null,
