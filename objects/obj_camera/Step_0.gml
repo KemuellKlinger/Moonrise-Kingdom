@@ -1,8 +1,8 @@
-if(instance_exists(obj_player)){
-	var _alvo = obj_player;
+if(instance_exists(obj_personagem)){
+	var _alvo = obj_personagem;
 	
-	x = lerp(x, _alvo.x, 0.75);
-	y = lerp(y, _alvo.y, 0.75);
+	x = lerp(x, _alvo.x, 0.05);
+	y = lerp(y, _alvo.y, 0.05);
 
 }
 
