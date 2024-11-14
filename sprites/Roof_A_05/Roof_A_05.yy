@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Roof_A_05",
   "bboxMode":0,
-  "bbox_bottom":159,
+  "bbox_bottom":79,
   "bbox_left":0,
-  "bbox_right":351,
+  "bbox_right":175,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":160,
+  "height":80,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"bf4e1be4-0a30-4478-a01b-7a962dcae179","blendMode":0,"displayName":"default","isLocked":false,"name":"bf4e1be4-0a30-4478-a01b-7a962dcae179","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":352,
+  "width":176,
 }
