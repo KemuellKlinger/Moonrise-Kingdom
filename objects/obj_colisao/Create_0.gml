@@ -1,8 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-velh = 0;
-velv = 0;
+vel_hori = 0;
+vel_vest = 0;
 
-velocidade = 5;
-gravidade = 8;
+gravidade = 0.35;
