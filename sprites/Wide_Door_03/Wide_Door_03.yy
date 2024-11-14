@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Wide_Door_03",
   "bboxMode":0,
-  "bbox_bottom":255,
-  "bbox_left":15,
-  "bbox_right":240,
+  "bbox_bottom":63,
+  "bbox_left":3,
+  "bbox_right":59,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":256,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"0c88e8bd-407b-4323-bb2a-4146baa9aa4f","blendMode":0,"displayName":"default","isLocked":false,"name":"0c88e8bd-407b-4323-bb2a-4146baa9aa4f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":256,
+  "width":64,
 }
