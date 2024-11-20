@@ -14,8 +14,8 @@ function scr_personagem_andando() {
     // Determinar a direção com base na movimentação
     veloc_dir = point_direction(x, y, x + hveloc, y + vveloc);
 
-    if (hveloc != 0 || vveloc != 0) {
-        veloc = 2;
+    if (hveloc != 0 or vveloc != 0) {
+        veloc = 1.2;
 
         // Atualiza a última direção baseada na movimentação atual
         if direita {
@@ -55,21 +55,23 @@ function scr_personagem_andando() {
         // Movendo: Selecionar sprites de personagem correndo com base na direção atual
         switch (dir) {
             case "direita":
-                sprite_index = spr_personagem_correndo_direita;
+                sprite_index = spr_andando_direita;
                 break;
             case "cima":
-                sprite_index = spr_personagem_correndo_cima;
+                sprite_index = spr_andando_cima;
                 break;
             case "esquerda":
-                sprite_index = spr_personagem_correndo_esquerda;
+                sprite_index = spr_andando_esquerda;
                 break;
             case "baixo":
-                sprite_index = spr_personagem_correndo_baixo;
+                sprite_index = spr_andando_baixo;
                 break;
         }
     }
 
     // Atualizar posição do personagem
-    x += hveloc;
-    y += vveloc;
+    //x += hveloc;
+    //y += vveloc;
+	script_execute(scr_colisao);
+	
 }
