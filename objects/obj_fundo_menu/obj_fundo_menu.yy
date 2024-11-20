@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_camera",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_fundo_menu",
+  "eventList":[],
   "managed":true,
-  "name":"obj_camera",
+  "name":"obj_fundo_menu",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"BackgroundMenuOpcoes",
+    "path":"sprites/BackgroundMenuOpcoes/BackgroundMenuOpcoes.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

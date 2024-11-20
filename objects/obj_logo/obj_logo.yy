@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_camera",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_logo",
+  "eventList":[],
   "managed":true,
-  "name":"obj_camera",
+  "name":"obj_logo",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"logoErrada_removebg_preview",
+    "path":"sprites/logoErrada_removebg_preview/logoErrada_removebg_preview.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
