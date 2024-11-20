@@ -1,2 +1,4 @@
 /// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+room_goto(other.ambiente);
+x = other.personagem_x;
+y = other.personagem_y;

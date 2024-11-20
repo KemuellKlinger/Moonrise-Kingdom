@@ -1,2 +1,4 @@
 /// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+ambiente = -1;
+personagem_x = -1;
+personagem_y = -1;
