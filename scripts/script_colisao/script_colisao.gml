@@ -2,9 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 
 function scr_colisao(){
-	if place_meeting(x + hveloc, y, obj_bloco){
+	if place_meeting(x + hveloc, y , obj_bloco){
 	while !place_meeting(x + sign(hveloc), y, obj_bloco){
 			x += sign(hveloc);
+			
+
 		}
 		hveloc = 0;
 	}
@@ -18,5 +20,3 @@ function scr_colisao(){
 	}
 	y += vveloc;
 }
-
-

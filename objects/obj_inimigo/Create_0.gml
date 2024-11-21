@@ -20,4 +20,5 @@ alarm[0] = 1;
 dist_agressivo = 50;
 dist_nao_agressivo = 100;
 
+vida = 5;
 		
