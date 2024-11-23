@@ -26,3 +26,4 @@ tomar_dano = true;
 dano = 1;
 atacar = false;
 
+dano_alfa = -1;

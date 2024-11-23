@@ -136,8 +136,9 @@ function scr_personagem_hit(){
 		scr_colisao();
 	}else{
 		estado = scr_personagem_andando;
-	}	
-	
-	
+	}
 
 }
+
+	
+

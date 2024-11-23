@@ -8,7 +8,7 @@ with(other){
 	empurrar_dir = _dir;
 	estado = scr_personagem_hit;
 	alarm[0] = 10;
-	alarm[1] = 180;
+	alarm[1] = 40;
 	tomar_dano = false;
 	vida -=1;	
 	}

@@ -117,6 +117,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_colisao","path":"objects/obj_colisao/obj_colisao.yy",},},
     {"id":{"name":"obj_fundo_menu","path":"objects/obj_fundo_menu/obj_fundo_menu.yy",},},
+    {"id":{"name":"obj_hub","path":"objects/obj_hub/obj_hub.yy",},},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
     {"id":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
