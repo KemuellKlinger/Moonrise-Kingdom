@@ -8,6 +8,5 @@ other.empurrar_dir = _dir;
 other.empurrar_veloc = 6;
 other.estado = scr_inimigo_hit;
 
-
 other.alarm[1] = 5;
 other.hit = true;

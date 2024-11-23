@@ -69,11 +69,7 @@ function scr_personagem_andando() {
                 sprite_index = spr_andando_baixo;
                 break;
         }
-    }
-
-    // Atualizar posição do personagem
-    //x += hveloc;
-    //y += vveloc;
+    } 
 	
 	if mouse_check_button_pressed(mb_left){
 		image_index = 0;
@@ -103,28 +99,28 @@ function scr_personagem_atacando(){
 		 switch (dir) {
             default:
                instance_create_layer(x + 10, y, "Instances", obj_personagem_hitbox); 
-                break;
-            case 1:
+               break;
+            case "cima":
 				instance_create_layer(x, y  - 10, "Instances", obj_personagem_hitbox); 
                 break;
-            case 2:
+            case "esquerda":
                 instance_create_layer(x - 10, y, "Instances", obj_personagem_hitbox); 
                 break;
-            case 3:
+            case "baixo":
                  instance_create_layer(x, y  + 10, "Instances", obj_personagem_hitbox); 
                 break;
-        }
+			}
 		
 		atacar = true;
-	}
+		}
 	}
 
-if fim_da_animacao(){
-	estado = scr_personagem_andando;
-	atacar = false;
-}
+	if fim_da_animacao(){
+		estado = scr_personagem_andando;
+		atacar = false;
+	}
 	
-		//estado = scr_personagem_atacando;
+			//estado = scr_personagem_atacando;
 }
 
 function scr_personagem_hit(){

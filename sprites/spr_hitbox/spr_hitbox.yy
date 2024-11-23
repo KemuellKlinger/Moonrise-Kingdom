@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_hitbox",
   "bboxMode":0,
-  "bbox_bottom":21,
+  "bbox_bottom":23,
   "bbox_left":0,
   "bbox_right":23,
   "bbox_top":0,

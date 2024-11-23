@@ -1,4 +1,3 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+/// @description Destruir
 
 instance_destroy();
