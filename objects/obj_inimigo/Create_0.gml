@@ -21,4 +21,7 @@ dist_agressivo = 50;
 dist_nao_agressivo = 100;
 
 vida = 5;
+empurrar_dir = 0;
+empurrar_veloc = 0;
+hit = false;
 		

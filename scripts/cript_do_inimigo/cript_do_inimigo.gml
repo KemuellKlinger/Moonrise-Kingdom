@@ -81,3 +81,14 @@ function src_inimigo_perseguindo(){
 		alarm[0] = irandom_range(120, 240);
 	}
 }
+
+function scr_inimigo_hit(){
+	
+	empurrar_veloc = lerp(empurrar_veloc, 0, 0.02);
+	
+	hveloc = lengthdir_x(empurrar_veloc, empurrar_dir);
+	vveloc = lengthdir_y(empurrar_veloc, empurrar_dir);
+	
+	scr_inimigo_colisao();
+
+}
