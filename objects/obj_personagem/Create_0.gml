@@ -3,7 +3,6 @@
 
 direita = -1;
 cima = -1;
-
 esquerda = -1;
 baixo = -1;
 
@@ -18,7 +17,12 @@ dir = 0;
 
 estado = scr_personagem_andando;
 
-dano = 1;
+//Combate
+max_vida = 20;
+vida = max_vida;
+empurrar_dir = 0;
+tomar_dano = true;
 
+dano = 1;
 atacar = false;
 

@@ -19,7 +19,6 @@ function scr_inimigo_colisao(){
 	y += vveloc;
 }
 
-
 function scr_inimigo_checar_personagem(){
 	if distance_to_object(obj_personagem) <= dist_agressivo{
 		estado = src_inimigo_perseguindo;

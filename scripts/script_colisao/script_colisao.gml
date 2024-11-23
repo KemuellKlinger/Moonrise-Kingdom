@@ -5,8 +5,6 @@ function scr_colisao(){
 	if place_meeting(x + hveloc, y , obj_bloco){
 	while !place_meeting(x + sign(hveloc), y, obj_bloco){
 			x += sign(hveloc);
-			
-
 		}
 		hveloc = 0;
 	}

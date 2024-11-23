@@ -126,3 +126,18 @@ if fim_da_animacao(){
 	
 		//estado = scr_personagem_atacando;
 }
+
+function scr_personagem_hit(){
+	 
+	if alarm[0] > 0{
+		hveloc = lengthdir_x(3, empurrar_dir);
+		vveloc = lengthdir_y(3, empurrar_dir);
+	
+		scr_colisao();
+	}else{
+		estado = scr_personagem_andando;
+	}	
+	
+	
+
+}
