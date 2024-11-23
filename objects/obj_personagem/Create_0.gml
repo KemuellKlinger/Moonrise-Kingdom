@@ -17,3 +17,8 @@ veloc_dir = -1;
 dir = 0;
 
 estado = scr_personagem_andando;
+
+dano = 1;
+
+atacar = false;
+

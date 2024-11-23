@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script3",
+  "%Name":"script_colisao",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script3",
+  "name":"script_colisao",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

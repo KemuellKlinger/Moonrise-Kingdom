@@ -33,6 +33,8 @@ function scr_personagem_andando() {
     
     hveloc = lengthdir_x(veloc, veloc_dir);
     vveloc = lengthdir_y(veloc, veloc_dir);
+	
+	script_execute(scr_colisao);
 
     // Selecionar sprite com base na direção de movimento
     if veloc == 0 {
@@ -72,6 +74,55 @@ function scr_personagem_andando() {
     // Atualizar posição do personagem
     //x += hveloc;
     //y += vveloc;
-	script_execute(scr_colisao);
 	
+	if mouse_check_button_pressed(mb_left){
+		image_index = 0;
+		 switch (dir) {
+            default:
+                sprite_index = spr_personagem_atacando_direita;
+                break;
+            case  "cima":
+                sprite_index = spr_personagem_atacando_cima;
+                break;
+            case  "esquerda":
+                sprite_index = spr_personagem_atacando_esquerda;
+                break;
+            case "baixo":
+                sprite_index = spr_personagem_atacando_baixo;
+                break;
+        }
+		estado = scr_personagem_atacando;
+	}
+	
+	
+}
+
+function scr_personagem_atacando(){
+	if image_index >= 1{
+		if atacar == false{
+		 switch (dir) {
+            default:
+               instance_create_layer(x + 10, y, "Instances", obj_personagem_hitbox); 
+                break;
+            case 1:
+				instance_create_layer(x, y  - 10, "Instances", obj_personagem_hitbox); 
+                break;
+            case 2:
+                instance_create_layer(x - 10, y, "Instances", obj_personagem_hitbox); 
+                break;
+            case 3:
+                 instance_create_layer(x, y  + 10, "Instances", obj_personagem_hitbox); 
+                break;
+        }
+		
+		atacar = true;
+	}
+	}
+
+if fim_da_animacao(){
+	estado = scr_personagem_andando;
+	atacar = false;
+}
+	
+		//estado = scr_personagem_atacando;
 }
