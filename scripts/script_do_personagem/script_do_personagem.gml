@@ -119,8 +119,7 @@ function scr_personagem_atacando(){
 		estado = scr_personagem_andando;
 		atacar = false;
 	}
-	
-			//estado = scr_personagem_atacando;
+
 }
 
 function scr_personagem_hit(){
