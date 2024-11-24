@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"script_do_personagem",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Scr Personagem",
+    "path":"folders/Scripts/Scr Personagem.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

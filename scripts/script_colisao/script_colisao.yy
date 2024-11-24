@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"script_colisao",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Scr Colisão",
+    "path":"folders/Scripts/Scr Colisão.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

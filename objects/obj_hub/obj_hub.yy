@@ -8,8 +8,8 @@
   "name":"obj_hub",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Vida",
+    "path":"folders/Objetos/Vida.yy",
   },
   "parentObjectId":null,
   "persistent":false,

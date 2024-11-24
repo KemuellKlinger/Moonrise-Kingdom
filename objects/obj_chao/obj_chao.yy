@@ -9,8 +9,8 @@
   "name":"obj_chao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Modo Pataforma",
+    "path":"folders/Objetos/Modo Pataforma.yy",
   },
   "parentObjectId":null,
   "persistent":false,

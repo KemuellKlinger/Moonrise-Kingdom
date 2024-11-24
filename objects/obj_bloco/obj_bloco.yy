@@ -8,8 +8,8 @@
   "name":"obj_bloco",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Bloco colisão",
+    "path":"folders/Objetos/Bloco colisão.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,5 +34,5 @@
     "path":"sprites/spr_parede/spr_parede.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

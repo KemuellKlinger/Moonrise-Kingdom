@@ -10,8 +10,8 @@
   "name":"obj_personagem_plataforma",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Modo Pataforma",
+    "path":"folders/Objetos/Modo Pataforma.yy",
   },
   "parentObjectId":{
     "name":"obj_chao",

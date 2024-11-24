@@ -3,7 +3,7 @@
 
 script_execute(estado);
 
-depth = -y;
+//depth = -y;
 	
 dest_x = obj_personagem.x;
 dest_y = obj_personagem.y;

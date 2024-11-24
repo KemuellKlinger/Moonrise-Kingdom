@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"script_do_inimigo",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Scr Inimigo",
+    "path":"folders/Scripts/Scr Inimigo.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

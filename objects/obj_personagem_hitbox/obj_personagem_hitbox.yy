@@ -10,8 +10,8 @@
   "name":"obj_personagem_hitbox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Player",
+    "path":"folders/Objetos/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
