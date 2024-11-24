@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"cript_do_inimigo",
+  "%Name":"script_do_inimigo",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"cript_do_inimigo",
+  "name":"script_do_inimigo",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
