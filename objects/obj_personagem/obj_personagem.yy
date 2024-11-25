@@ -34,13 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_personagem_parado_baixo",
-    "path":"sprites/spr_personagem_parado_baixo/spr_personagem_parado_baixo.yy",
-  },
-  "spriteMaskId":{
-    "name":"spr_personagem_parado_baixo",
-    "path":"sprites/spr_personagem_parado_baixo/spr_personagem_parado_baixo.yy",
-  },
+  "spriteId":null,
+  "spriteMaskId":null,
   "visible":true,
 }
