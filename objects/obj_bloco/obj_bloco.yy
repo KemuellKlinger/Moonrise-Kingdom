@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_parede",
-    "path":"sprites/spr_parede/spr_parede.yy",
+    "name":"spr_bloco_colisao",
+    "path":"sprites/spr_bloco_colisao/spr_bloco_colisao.yy",
   },
   "spriteMaskId":null,
   "visible":false,

@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor 
 
-draw_sprite(spr_personagem_sombra,0, x, y + 4);
+draw_sprite(spr_personagem_sombra,0, x, y + 0.8);
 draw_self();
 
 if(alarm[1] > 0){
