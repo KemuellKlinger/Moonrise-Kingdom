@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-//script_execute(estado);
+script_execute(estado);
 
 //depth = -y;
 	
@@ -17,39 +17,24 @@ if distance_to_object(boss) <= distancia{
 	y = 276;
 }
 
-// Movimentação básica
+// Controle de movimentação (usando hveloc e vveloc)
 x += hveloc;
 y += vveloc;
 
-// Definir direção para animação (baseado em hveloc e vveloc)
-if (hveloc != 0 || vveloc != 0) {
-    var veloc_dir = point_direction(0, 0, hveloc, vveloc);
-    if (abs(hveloc) > abs(vveloc)) {
-        if (hveloc > 0) dir = "direita";
-        else dir = "esquerda";
-    } else {
-        if (vveloc > 0) dir = "baixo";
-        else dir = "cima";
-    }
+// Controle de estados
+switch (estado) {
+    case scr_personagem_andando:
+        scr_personagem_andando();
+        break;
+
+    case scr_personagem_atacando:
+        scr_personagem_atacando();
+        break;
+
+    case scr_personagem_hit:
+        scr_personagem_hit();
+        break;
 }
 
-// Selecionar o sprite de acordo com a direção e estado
-if (hveloc == 0 && vveloc == 0) {
-    // Parado
-    switch (dir) {
-        case "direita": sprite_index = spr_personagem_parado_direita; break;
-        case "cima": sprite_index = spr_personagem_parado_cima; break;
-        case "esquerda": sprite_index = spr_personagem_parado_esquerda; break;
-        case "baixo": sprite_index = spr_personagem_parado_baixo; break;
-    }
-} else {
-    // Andando
-    switch (dir) {
-        case "direita": sprite_index = spr_andando_direita; break;
-        case "cima": sprite_index = spr_andando_cima; break;
-        case "esquerda": sprite_index = spr_andando_esquerda; break;
-        case "baixo": sprite_index = spr_andando_baixo; break;
-    }
-}
 
 

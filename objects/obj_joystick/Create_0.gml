@@ -9,3 +9,5 @@ arrastar = false;
 hveloc = 0;
 vveloc = 0;
 dir = 0;
+
+global.usando_joystick = true;

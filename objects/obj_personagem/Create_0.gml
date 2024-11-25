@@ -15,7 +15,7 @@ veloc_dir = -1;
 
 
 
-//estado = scr_personagem_andando;
+estado = scr_personagem_andando;
 
 //Combate
 max_vida = 20;
