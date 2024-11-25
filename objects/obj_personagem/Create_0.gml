@@ -6,16 +6,16 @@ cima = -1;
 esquerda = -1;
 baixo = -1;
 
-
 hveloc = 0;
 vveloc = 0;
+dir = "baixo"; // Direção inicial
 
 veloc = 1;
 veloc_dir = -1;
 
-dir = 0;
 
-estado = scr_personagem_andando;
+
+//estado = scr_personagem_andando;
 
 //Combate
 max_vida = 20;

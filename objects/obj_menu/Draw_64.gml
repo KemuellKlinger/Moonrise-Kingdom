@@ -2,7 +2,6 @@
 // Você pode escrever seu código neste editor
 draw_set_font(ft_menu);
 
-
 var dist = 40;
 
 var largura = display_get_gui_width();
@@ -13,7 +12,6 @@ var y1 = altura /2;
 for(var cont = 0; cont < op_maxima; cont++){
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);
-	
 	
 	if(index == cont){
 		draw_set_color(c_yellow);
