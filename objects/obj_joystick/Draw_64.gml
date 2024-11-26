@@ -1,6 +1,4 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
+/// @description Desenhar GUI
 var _x1 = 160;
 var _y1 = 640;
 var _escala = 1;
@@ -11,5 +9,5 @@ var _x2 = lengthdir_x(vel, direcao);
 var _y2 = lengthdir_y(vel, direcao);
 
 ////Bolinha
-draw_sprite_ext(spr_Joystick, 0, _x1 + _x2, _y1 + _y2, _escala/4, _escala/4, 0, c_red, .8);
+draw_sprite_ext(spr_Joystick, 0, _x1 + _x2, _y1 + _y2, _escala/4, _escala/4, 0, c_white, .8);
 

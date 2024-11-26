@@ -1,33 +1,31 @@
 function scr_personagem_andando() {
-    // Determina a direção do movimento
+    // Obter velocidades do joystick
     var _hveloc = hveloc;
     var _vveloc = vveloc;
-    
-    // Verifica a colisão horizontal antes de mover
-    if (!place_meeting(x + _hveloc, y, obj_bloco)) {
-        x += _hveloc; // Move normalmente se não houver colisão
-    } else {
-        // Se houver colisão, ajusta a posição para não atravessar o bloco
-        while (!place_meeting(x + sign(_hveloc), y, obj_bloco)) {
-            x += sign(_hveloc);
-        }
-        _hveloc = 0; // Impede movimento horizontal ao bater no bloco
-    }
 
-    // Verifica a colisão vertical antes de mover
-    if (!place_meeting(x, y + _vveloc, obj_bloco)) {
-        y += _vveloc; // Move normalmente se não houver colisão
+    // Verifica colisão na direção diagonal primeiro
+    if (!place_meeting(x + _hveloc, y + _vveloc, obj_bloco)) {
+        // Movimento permitido na diagonal
+        x += _hveloc;
+        y += _vveloc;
     } else {
-        // Se houver colisão, ajusta a posição para não atravessar o bloco
-        while (!place_meeting(x, y + sign(_vveloc), obj_bloco)) {
-            y += sign(_vveloc);
+        // Verifica colisão horizontal
+        if (!place_meeting(x + _hveloc, y, obj_bloco)) {
+            x += _hveloc; // Move no eixo horizontal
+        } else {
+            _hveloc = 0; // Bloqueia movimento horizontal
         }
-        _vveloc = 0; // Impede movimento vertical ao bater no bloco
+
+        // Verifica colisão vertical
+        if (!place_meeting(x, y + _vveloc, obj_bloco)) {
+            y += _vveloc; // Move no eixo vertical
+        } else {
+            _vveloc = 0; // Bloqueia movimento vertical
+        }
     }
 
     // Determina a direção com base no movimento
     if (_hveloc != 0 || _vveloc != 0) {
-        var veloc_dir = point_direction(0, 0, _hveloc, _vveloc);
         if (abs(_hveloc) > abs(_vveloc)) {
             dir = (_hveloc > 0) ? "direita" : "esquerda";
         } else {
@@ -54,11 +52,7 @@ function scr_personagem_andando() {
         }
     }
 
-    // Verifica ataque, desativa se joystick está sendo usado
-    if (!mouse_check_button_pressed(mb_left) && (_hveloc != 0 || _vveloc != 0)) {
-        return; // Se o joystick está sendo usado, não faz o ataque
-    }
-
+    // Verifica ataque (opcional)
     if (mouse_check_button_pressed(mb_left)) {
         image_index = 0; // Reinicia a animação
         switch (dir) {
@@ -71,23 +65,6 @@ function scr_personagem_andando() {
     }
 }
 
-//function scr_colisao() {
-//    // Verifica colisão horizontal
-//    if (place_meeting(x + hveloc, y, obj_bloco)) {
-//        while (!place_meeting(x + sign(hveloc), y, obj_bloco)) {
-//            x += sign(hveloc);
-//        }
-//        hveloc = 0; // Impede movimento horizontal
-//    }
-    
-//    // Verifica colisão vertical
-//    if (place_meeting(x, y + vveloc, obj_bloco)) {
-//        while (!place_meeting(x, y + sign(vveloc), obj_bloco)) {
-//            y += sign(vveloc);
-//        }
-//        vveloc = 0; // Impede movimento vertical
-//    }
-//}
 
 function scr_personagem_atacando() {
     // Impede o ataque se o joystick estiver ativo
@@ -101,10 +78,10 @@ function scr_personagem_atacando() {
     if (image_index >= 1 && !atacar) {
         // Cria a hitbox baseada na direção
         switch (dir) {
-            case "direita": instance_create_layer(x + 10, y, "Instances", obj_personagem_hitbox); break;
-            case "cima": instance_create_layer(x, y - 10, "Instances", obj_personagem_hitbox); break;
-            case "esquerda": instance_create_layer(x - 10, y, "Instances", obj_personagem_hitbox); break;
-            case "baixo": instance_create_layer(x, y + 10, "Instances", obj_personagem_hitbox); break;
+            case "direita": instance_create_layer(x + 15, y, "Instances", obj_personagem_hitbox); break;
+            case "cima": instance_create_layer(x, y - 15, "Instances", obj_personagem_hitbox); break;
+            case "esquerda": instance_create_layer(x - 15, y, "Instances", obj_personagem_hitbox); break;
+            case "baixo": instance_create_layer(x, y + 15, "Instances", obj_personagem_hitbox); break;
         }
         atacar = true;
     }
@@ -116,11 +93,13 @@ function scr_personagem_atacando() {
     }
 }
 
+// Atualização na função de colisão (ou no "hit")
 function scr_personagem_hit() {
     if (alarm[0] > 0) {
-        hveloc = lengthdir_x(3, empurrar_dir);
-        vveloc = lengthdir_y(3, empurrar_dir);
+        // Quando o personagem é atingido, ele é empurrado na direção de 'empurrar_dir'
+        hveloc = lengthdir_x(3, empurrar_dir); // Empurrar horizontalmente
+        vveloc = lengthdir_y(3, empurrar_dir); // Empurrar verticalmente
     } else {
-        estado = scr_personagem_andando;
+        estado = scr_personagem_andando; // Quando o impacto termina, volta ao estado de andar
     }
 }
