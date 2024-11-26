@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Moonrise Kingdom",
-    "path":"Moonrise Kingdom.yyp",
+    "name":"Personagem",
+    "path":"folders/Sprites/Personagem.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
