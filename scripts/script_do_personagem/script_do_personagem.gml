@@ -99,6 +99,8 @@ function scr_personagem_hit() {
         // Quando o personagem é atingido, ele é empurrado na direção de 'empurrar_dir'
         hveloc = lengthdir_x(3, empurrar_dir); // Empurrar horizontalmente
         vveloc = lengthdir_y(3, empurrar_dir); // Empurrar verticalmente
+		
+		scr_personagem_colisao();
     } else {
         estado = scr_personagem_andando; // Quando o impacto termina, volta ao estado de andar
     }

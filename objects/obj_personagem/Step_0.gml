@@ -32,4 +32,9 @@ if (distance_to_object(boss) <= distancia) {
     room_goto(rm_batalha_plataforma);
     x = 86;
     y = 276;
+	instance_destroy();
+	
+	//if(other.persistent){
+	//	other.persistent = false;
+	//}
 }
