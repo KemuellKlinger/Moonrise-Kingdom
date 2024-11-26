@@ -28,35 +28,35 @@
     // Lógica de movimento no chão
     if (noChao) {
         vel_vest = 0; // Redefine gravidade quando o personagem está no chão
+	}
+        //// Define a animação de movimento (run) ou inatividade (idle)
+        //if (direcaoX != 0) {
+        //    sprite_index = sprite_run;
+        //} else {
+        //    sprite_index = sprite_idle;
+        //}
 
-        // Define a animação de movimento (run) ou inatividade (idle)
-        if (direcaoX != 0) {
-            sprite_index = sprite_run;
-        } else {
-            sprite_index = sprite_idle;
-        }
+    //    quant_pulo = max_pulo; // Reseta o contador de pulo duplo
 
-        quant_pulo = max_pulo; // Reseta o contador de pulo duplo
-
-        if (pulo) {
-            vel_vest = forcaPulo;
-            quant_pulo--;
-        }
-    } else {
-        // Controle de pulo duplo
+    //    if (pulo) {
+    //        vel_vest = forcaPulo;
+    //        quant_pulo--;
+    //    }
+    //} else {
+    //    // Controle de pulo duplo
       
 
-       // Gravidade quando o personagem está no ar
+    //   // Gravidade quando o personagem está no ar
 
-        // Animação de pulo
+    //    // Animação de pulo
      
 
-        // Animação de queda
+    //    // Animação de queda
      
 
-        // Verificação de colisão com a parede
+    //    // Verificação de colisão com a parede
      
-    }
+    //}
 
     // Atualiza a posição do personagem
 
