@@ -30,9 +30,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"srp_cima",
-    "path":"sprites/srp_cima/srp_cima.yy",
+    "name":"spr_cima",
+    "path":"sprites/spr_cima/spr_cima.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_cima",
+    "path":"sprites/spr_cima/spr_cima.yy",
+  },
   "visible":true,
 }

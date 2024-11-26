@@ -33,6 +33,9 @@
     "name":"spr_baixo",
     "path":"sprites/spr_baixo/spr_baixo.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_baixo",
+    "path":"sprites/spr_baixo/spr_baixo.yy",
+  },
   "visible":true,
 }
