@@ -1,31 +1,31 @@
 //Controlador de colisao
 
-var colx, coly;
+var _colx, _coly;
 
-colx = instance_place(x+vel_hori, y, obj_bloco); //verifica colisao no eixo x
-coly = instance_place(x, y + vel_vest, obj_bloco);//verifica colisao no eixo y
+_colx = instance_place(x+vel_hori, y, obj_bloco); //verifica colisao no eixo x
+_coly = instance_place(x, y + vel_vest, obj_bloco);//verifica colisao no eixo y
 
-if colx{
+if _colx{
 	//Colisao a direita (vel_hori é positivo)
 	if vel_hori > 0{
-		x = colx.bbox_left + (x - bbox_right );
+		x = _colx.bbox_left + (x - bbox_right );
 		
 	}
 	//Colisao a esquerda (vel_hori é negativo)
 	else if vel_hori < 0{
-	x = colx.bbox_right + (x - bbox_left);
+	x = _colx.bbox_right + (x - bbox_left);
 		
 	}
 	vel_hori = 0;
 }
-if coly{
+if _coly{
 	//Colisao a direita
 	if vel_vest > 0{
-		y = coly.bbox_top+ (y - bbox_bottom);
+		y = _coly.bbox_top+ (y - bbox_bottom);
 	}
 	//Colisao a esquerda
 	if vel_vest < 0{
-		y = coly.bbox_bottom + (y - bbox_top);
+		y = _coly.bbox_bottom + (y - bbox_top);
 	}
 	vel_vest=0;	
 }
