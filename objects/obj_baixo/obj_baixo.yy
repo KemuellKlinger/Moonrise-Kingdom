@@ -8,8 +8,8 @@
   "name":"obj_baixo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Direct Pause",
-    "path":"folders/Objetos/Direcionais/Direct Pause.yy",
+    "name":"Botões de Pausa",
+    "path":"folders/Objetos/Botões/Botões de Pausa.yy",
   },
   "parentObjectId":null,
   "persistent":false,

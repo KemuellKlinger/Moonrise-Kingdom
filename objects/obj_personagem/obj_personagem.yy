@@ -34,13 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_andando_baixo",
-    "path":"sprites/spr_andando_baixo/spr_andando_baixo.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":{
-    "name":"spr_hitbox",
-    "path":"sprites/spr_hitbox/spr_hitbox.yy",
+    "name":"spr_personagem_parado_direita",
+    "path":"sprites/spr_personagem_parado_direita/spr_personagem_parado_direita.yy",
   },
   "visible":true,
 }

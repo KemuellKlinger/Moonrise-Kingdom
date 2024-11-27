@@ -31,27 +31,26 @@ function scr_personagem_andando() {
         }
     }
 
-    // Verifica ataque (opcional)
-    if (mouse_check_button_pressed(mb_left)) {
-        image_index = 0; // Reinicia a animação
-        switch (dir) {
-            case "direita": sprite_index = spr_personagem_atacando_direita; break;
-            case "cima": sprite_index = spr_personagem_atacando_cima; break;
-            case "esquerda": sprite_index = spr_personagem_atacando_esquerda; break;
-            case "baixo": sprite_index = spr_personagem_atacando_baixo; break;
-        }
-        estado = scr_personagem_atacando; // Troca para o estado de ataque
-    }
+	 if (instance_exists(obj_ataque) && obj_ataque.pressionado) {
+	    image_index = 0; // Reinicia a animação
+	    switch (dir) {
+	        case "direita": sprite_index = spr_personagem_atacando_direita; break;
+	        case "cima": sprite_index = spr_personagem_atacando_cima; break;
+	        case "esquerda": sprite_index = spr_personagem_atacando_esquerda; break;
+	        case "baixo": sprite_index = spr_personagem_atacando_baixo; break;
+	    }
+	    estado = scr_personagem_atacando; // Troca para o estado de ataque
+	}
+
 }
 
 
 function scr_personagem_atacando() {
     // Impede o ataque se o joystick estiver ativo
-    if (global.usando_joystick) {
-        estado = scr_personagem_andando;
-        atacar = false;
-        return; // Sai do script para evitar criar a hitbox
-    }
+    //if (global.usando_joystick) {
+    //    estado = scr_personagem_andando;
+    //    return; // Sai do script para evitar criar a hitbox
+    //}
 
     // Verifica se a animação atingiu o quadro necessário para atacar
     if (image_index >= 1 && !atacar) {
@@ -62,7 +61,6 @@ function scr_personagem_atacando() {
             case "esquerda": instance_create_layer(x - 15, y, "Instances", obj_personagem_hitbox); break;
             case "baixo": instance_create_layer(x, y + 15, "Instances", obj_personagem_hitbox); break;
         }
-        atacar = true;
     }
 
     // Verifica se a animação terminou

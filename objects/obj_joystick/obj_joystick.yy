@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Direct Player",
-    "path":"folders/Objetos/Direcionais/Direct Player.yy",
+    "path":"folders/Objetos/Botões/Direct Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
