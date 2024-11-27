@@ -3,8 +3,6 @@
 
 
 other.vida -= obj_personagem.dano;
-other.vida -= obj_personagem_plataforma.dano;
-
 
 var _dir = point_direction(obj_personagem.x, obj_personagem.y, other.x, other.y);
 
