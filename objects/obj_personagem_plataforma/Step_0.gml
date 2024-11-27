@@ -5,6 +5,7 @@ function inputPlayer() {
     esquerda = keyboard_check(ord("A"));
     direita = keyboard_check(ord("D"));
     pulo = keyboard_check_pressed(vk_space);
+	ataque = keyboard_check_pressed(ord("j"));
 
     // Verifica se o input do teclado ou da seta está ativo
     direcaoX = direita - esquerda; // Teclado
@@ -47,7 +48,10 @@ function inputPlayer() {
 
         if (quant_pulo == (max_pulo - 1)) {
             sprite_index = sprite_jump;
-        } else {
+        } else if ataque{
+			estado = "parado";
+			vel_hori = 0;
+		} else {
             sprite_index = sprite_double_jump;
         }
 
@@ -55,16 +59,6 @@ function inputPlayer() {
             sprite_index = sprite_fall;
         }
 
-        if (naParede) {
-            vel_vest = 1;
-            sprite_index = sprite_wall_jump;
-
-            if (pulo) {
-                vel_vest = forcaPulo;
-                _vel_hori = (20 * direcaoX) * -1;
-                quant_pulo = max_pulo - 1;
-            }
-        }
     }
 
     x += _vel_hori;
