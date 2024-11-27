@@ -6,8 +6,8 @@ scr_personagem_colisao();
 
 //Limpa pequenas velocidades residuais (se necessário)
 
-//if (abs(vveloc) < 0.1) vveloc = 0;
-//if (abs(hveloc) < 0.1) hveloc = 0;
+if (abs(vveloc) < 0.1) vveloc = 0;
+if (abs(hveloc) < 0.1) hveloc = 0;
 
 
 //// Executa o estado atual
@@ -20,8 +20,8 @@ switch (estado) {
         break;
 
     case scr_personagem_atacando:
-        scr_personagem_atacando();
-        break;
+			scr_personagem_atacando();
+	        break;
 
     case scr_personagem_hit:
         scr_personagem_hit();

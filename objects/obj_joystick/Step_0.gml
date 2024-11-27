@@ -14,15 +14,15 @@ var mouse_click = mouse_check_button(mb_left);
 
 if (mouse_sobre || arrastar) {
     global.usando_joystick = true;
-    //if (mouse_click) {
+    if (mouse_click) {
         arrastar = true;
         // Calcula velocidade e direção do joystick
         vel = min(point_distance(_x1, _y1, _mouse_x, _mouse_y), (_sprit_size / 2) * _escala);
         direcao = point_direction(_x1, _y1, _mouse_x, _mouse_y);
-    //}
+    }
 } else {
     global.usando_joystick = false;
-}
+} 
 
 if (!mouse_click) {
     arrastar = false;
