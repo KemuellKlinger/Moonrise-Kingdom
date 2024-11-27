@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_esquerdo",
+    "path":"sprites/spr_esquerdo/spr_esquerdo.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

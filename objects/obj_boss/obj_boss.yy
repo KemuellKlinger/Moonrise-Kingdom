@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_slime_andando",
-    "path":"sprites/spr_slime_andando/spr_slime_andando.yy",
+    "name":"boss_parado",
+    "path":"sprites/boss_parado/boss_parado.yy",
   },
   "spriteMaskId":null,
   "visible":true,

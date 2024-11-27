@@ -33,9 +33,6 @@
     "name":"spr_cima",
     "path":"sprites/spr_cima/spr_cima.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_cima",
-    "path":"sprites/spr_cima/spr_cima.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
