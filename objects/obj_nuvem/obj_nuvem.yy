@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"WMV",
-    "path":"sprites/WMV/WMV.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
