@@ -23,9 +23,6 @@ function scr_inimigo_checar_personagem(){
 	if distance_to_object(obj_personagem) <= dist_agressivo{
 		estado = src_inimigo_perseguindo;
 	}
-	if distance_to_object(obj_personagem_plataforma) <= dist_agressivo{
-		estado = src_inimigo_perseguindo;
-	}
 }
 
 function scr_inimigo_escolher_estado(){
@@ -67,30 +64,21 @@ function scr_inimigo_parado(){
 }
 
 function src_inimigo_perseguindo(){
-	 var personagem_atual;
-    if instance_exists(obj_personagem){
-        personagem_atual = obj_personagem;
-    } else if instance_exists(obj_personagem_plataforma){
-        personagem_atual = obj_personagem_plataforma;
-    } else {
-        return; // Nenhum personagem na sala
-    }
+	image_speed = 1.5;
+	
+	dest_x = obj_personagem.x;
+	dest_y = obj_personagem.y;
+	
+	var _dir = point_direction(x, y, dest_x, dest_y);
+	hveloc = lengthdir_x(veloc_perseg, _dir);
+	vveloc = lengthdir_y(veloc_perseg, _dir);
 
-    image_speed = 1.5;
-    
-    dest_x = personagem_atual.x;
-    dest_y = personagem_atual.y;
-    
-    var _dir = point_direction(x, y, dest_x, dest_y);
-    hveloc = lengthdir_x(veloc_perseg, _dir);
-    vveloc = lengthdir_y(veloc_perseg, _dir);
-
-    scr_inimigo_colisao();
-    
-    if distance_to_object(personagem_atual) >= dist_nao_agressivo{
-        estado = scr_inimigo_escolher_estado;
-        alarm[0] = irandom_range(120, 240);
-    }
+	scr_inimigo_colisao();
+	
+	if distance_to_object(obj_personagem) >= dist_nao_agressivo{
+		estado = scr_inimigo_escolher_estado;
+		alarm[0] = irandom_range(120, 240);
+	}
 }
 
 function scr_inimigo_hit(){
