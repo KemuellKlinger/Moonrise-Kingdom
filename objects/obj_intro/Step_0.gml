@@ -1,3 +1,5 @@
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
 /// @description Gerenciar transição da introdução
 if (fade_in) {
     if (alpha < 1) {

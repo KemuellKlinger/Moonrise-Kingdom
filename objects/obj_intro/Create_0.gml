@@ -1,3 +1,5 @@
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
 /// @description Inicializar variáveis para a introdução
 fade_in = true;
 fade_out = false;

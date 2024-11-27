@@ -1,3 +1,5 @@
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
 /// @description Desenhar a introdução
 
 // Desenhar a imagem centralizada com fade
