@@ -22,15 +22,13 @@ if (mouse_sobre || arrastar) {
     }
 } else {
     global.usando_joystick = false;
-}
+} 
 
 if (!mouse_click) {
     arrastar = false;
     vel = 0; // Para quando o joystick não está sendo pressionado
 }
 
-// Atualiza deslocamento visual do joystick
-// Calcula deslocamentos com base no joystick
 var _x2 = lengthdir_x(vel, direcao);
 var _y2 = lengthdir_y(vel, direcao);
 
@@ -45,6 +43,3 @@ if (instance_exists(obj_personagem)) {
     obj_personagem.vveloc = _velv;
 }
 
-// Desenha o joystick na tela
-//draw_sprite_ext(spr_Joystick, 0, _x1, _y1, _escala, _escala, 0, c_white, .3);
-//draw_sprite_ext(spr_Joystick, 0, _x1 + _x2, _y1 + _y2, _escala / 4, _escala / 4, 0, c_white, .8);

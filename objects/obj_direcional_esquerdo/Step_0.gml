@@ -1,7 +1,18 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-var _sprit_size_w = sprite_get_width(spr_esquerdo);
-var _sprit_size_h = sprite_get_height(spr_esquerdo);
+/// @description Configuração do botão virtual para controle esquerdo
 
-esquerda = virtual_key_add(x ,620, _sprit_size_w, _sprit_size_h, ord("A"));
+// Tamanho do sprite
+var _sprite_size_w = sprite_get_width(spr_esquerdo);
+var _sprite_size_h = sprite_get_height(spr_esquerdo);
 
+// Posição do botão virtual
+var _key_x = x; // Ajuste conforme necessário
+var _key_y = display_get_height() - (_sprite_size_h * 2) - 20; // Baseado na tela
+
+// Criação da tecla virtual
+esquerda = virtual_key_add(_key_x, _key_y, _sprite_size_w * 2, _sprite_size_h * 2, ord("A"));
+
+// Salvar as dimensões do botão para depuração
+button_x = _key_x;
+button_y = _key_y;
+button_w = _sprite_size_w * 2;
+button_h = _sprite_size_h * 2;

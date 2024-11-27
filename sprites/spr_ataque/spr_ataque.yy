@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Direcionais",
-    "path":"folders/Sprites/Direcionais.yy",
+    "name":"Botões",
+    "path":"folders/Sprites/Botões.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

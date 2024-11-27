@@ -35,6 +35,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_personagem_parado_direita",
+    "path":"sprites/spr_personagem_parado_direita/spr_personagem_parado_direita.yy",
+  },
   "visible":true,
 }

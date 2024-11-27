@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bloco",
+  "%Name":"ob_selecionar",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bloco",
+  "name":"ob_selecionar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bloco colisão",
-    "path":"folders/Objetos/Bloco colisão.yy",
+    "name":"Botões de Pausa",
+    "path":"folders/Objetos/Botões/Botões de Pausa.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bloco_colisao",
-    "path":"sprites/spr_bloco_colisao/spr_bloco_colisao.yy",
+    "name":"spr_ataque",
+    "path":"sprites/spr_ataque/spr_ataque.yy",
   },
   "spriteMaskId":null,
   "visible":true,

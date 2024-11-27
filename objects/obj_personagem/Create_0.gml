@@ -1,13 +1,13 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-
-
 hveloc = 0;
 vveloc = 0;
 dir = "baixo"; // Direção inicial
 
-veloc = 1;
-veloc_dir = -1;
+//dir = 0;
+
+//veloc = 10;
+//veloc_dir = -1;
 
 estado = scr_personagem_andando;
 
