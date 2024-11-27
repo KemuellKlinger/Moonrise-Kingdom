@@ -7,7 +7,7 @@
 	var _sprit_size_h = sprite_get_height(spr_direito);
     // Aqui você cria a tecla virtual para mover para a direita (usando virtual_key_add)
     // Isso cria um botão virtual para a direita, que é um retângulo de 250x100 na posição (x, y)
-    direita = virtual_key_add(130, 620, _sprit_size_w, _sprit_size_h, ord("D"));  // Isso retorna 1 se a tecla "D" estiver pressionada (ou o botão virtual)
+    direita = virtual_key_add(x, 600, _sprit_size_w * 2, _sprit_size_h * 2, ord("D"));  // Isso retorna 1 se a tecla "D" estiver pressionada (ou o botão virtual)
   
 	
     // Define que a direção X será sempre positiva, pois o movimento é somente para a direita

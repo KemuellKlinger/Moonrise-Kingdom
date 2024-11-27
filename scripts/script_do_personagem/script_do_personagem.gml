@@ -3,27 +3,6 @@ function scr_personagem_andando() {
     var _hveloc = hveloc;
     var _vveloc = vveloc;
 
-    // Verifica colisão na direção diagonal primeiro
-    if (!place_meeting(x + _hveloc, y + _vveloc, obj_bloco)) {
-        // Movimento permitido na diagonal
-        x += _hveloc;
-        y += _vveloc;
-    } else {
-        // Verifica colisão horizontal
-        if (!place_meeting(x + _hveloc, y, obj_bloco)) {
-            x += _hveloc; // Move no eixo horizontal
-        } else {
-            _hveloc = 0; // Bloqueia movimento horizontal
-        }
-
-        // Verifica colisão vertical
-        if (!place_meeting(x, y + _vveloc, obj_bloco)) {
-            y += _vveloc; // Move no eixo vertical
-        } else {
-            _vveloc = 0; // Bloqueia movimento vertical
-        }
-    }
-
     // Determina a direção com base no movimento
     if (_hveloc != 0 || _vveloc != 0) {
         if (abs(_hveloc) > abs(_vveloc)) {

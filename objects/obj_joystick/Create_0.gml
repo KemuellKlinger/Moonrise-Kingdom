@@ -2,7 +2,7 @@
 
 vel = 0;
 direcao = 0;
-max_velo = 0.5;
+max_velo = 1;
 
 arrastar = false;
 hveloc = 0;
