@@ -34,5 +34,5 @@
     "path":"sprites/spr_bloco_colisao/spr_bloco_colisao.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
