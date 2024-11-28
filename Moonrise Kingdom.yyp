@@ -149,7 +149,7 @@
     {"id":{"name":"obj_fundo_menu","path":"objects/obj_fundo_menu/obj_fundo_menu.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_hub","path":"objects/obj_hub/obj_hub.yy",},},
-    {"id":{"name":"obj_inimigo_mulher","path":"objects/obj_inimigo_mulher/obj_inimigo_mulher.yy",},},
+    {"id":{"name":"obj_inimigo_transicao","path":"objects/obj_inimigo_transicao/obj_inimigo_transicao.yy",},},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
     {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},},
     {"id":{"name":"obj_joystick","path":"objects/obj_joystick/obj_joystick.yy",},},
