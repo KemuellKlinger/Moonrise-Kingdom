@@ -12,7 +12,7 @@ dir = "baixo"; // Direção inicial
 estado = scr_personagem_andando;
 
 //Combate
-max_vida = 10;
+max_vida = 20;
 vida = max_vida;
 empurrar_dir = 0;
 tomar_dano = true;
