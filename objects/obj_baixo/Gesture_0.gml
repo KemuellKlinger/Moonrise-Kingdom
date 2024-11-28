@@ -1,8 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-obj_menu.index++;
+obj_pause.index_pause++;
 
-if(obj_menu.index >= obj_menu.op_maxima){
-	obj_menu.index = obj_menu.op_maxima-1;
+if(obj_pause.index_pause >= obj_pause.op_maxima_pause){
+	obj_pause.index_pause = obj_pause.op_maxima_pause-1;
 }

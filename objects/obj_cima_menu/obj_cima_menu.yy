@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ataque",
+  "%Name":"obj_cima_menu",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_ataque",
+  "name":"obj_cima_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Direct Player",
-    "path":"folders/Objetos/Botões/Direct Player.yy",
+    "name":"Botões de Menu",
+    "path":"folders/Objetos/Botões/Botões de Menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ataque",
-    "path":"sprites/spr_ataque/spr_ataque.yy",
+    "name":"spr_cima",
+    "path":"sprites/spr_cima/spr_cima.yy",
   },
   "spriteMaskId":null,
   "visible":true,

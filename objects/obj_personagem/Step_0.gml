@@ -5,11 +5,6 @@ scr_personagem_colisao();
 
 depth = -y;
 
-
-//Src_colisao_perfeita();
-
-//Limpa pequenas velocidades residuais (se necessário)
-
 if (abs(vveloc) < 0.1) vveloc = 0;
 if (abs(hveloc) < 0.1) hveloc = 0;
 

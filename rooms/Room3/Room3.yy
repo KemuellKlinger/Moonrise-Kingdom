@@ -11,7 +11,6 @@
     {"name":"inst_2DFF4F2D","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_64A4D102","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_1EE1E565","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_4959ACEA","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_7717923D","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_2073A22","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_49FC3947","path":"rooms/Room3/Room3.yy",},
@@ -111,7 +110,6 @@
         {"$GMRInstance":"v1","%Name":"inst_2DFF4F2D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DFF4F2D","objectId":{"name":"obj_nuvem","path":"objects/obj_nuvem/obj_nuvem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1203704,"scaleY":1.1116803,"x":0.0,"y":-37.0,},
         {"$GMRInstance":"v1","%Name":"inst_64A4D102","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64A4D102","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":384.0,},
         {"$GMRInstance":"v1","%Name":"inst_1EE1E565","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EE1E565","objectId":{"name":"obj_joystick","path":"objects/obj_joystick/obj_joystick.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":128.0,},
-        {"$GMRInstance":"v1","%Name":"inst_4959ACEA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4959ACEA","objectId":{"name":"obj_ataque","path":"objects/obj_ataque/obj_ataque.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.2,"scaleY":0.2,"x":1088.0,"y":480.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Escadas","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Escadas","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":45,"SerialiseWidth":80,"TileCompressedData":[
           -10,-2147483648,-30,0,-46,-2147483648,-36,0,-38,-2147483648,-42,0,-38,-2147483648,-44,0,-36,-2147483648,

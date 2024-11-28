@@ -3,7 +3,7 @@
 
 script_execute(estado)
 
-depth = -y;
+//depth = -y;
 
 if vida <= 0{
 	instance_destroy();
