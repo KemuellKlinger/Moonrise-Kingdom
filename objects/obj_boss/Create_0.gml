@@ -17,12 +17,14 @@ dest_y = 0;
 
 alarm[0] = 1;
 
-dist_agressivo = 50;
+dist_agressivo = 10;
 dist_nao_agressivo = 100;
 
 //Combate
-vida = 5;
+vida = 10;
 empurrar_dir = 0;
 empurrar_veloc = 0;
 hit = false;
+
+ambiente = rm_batalha_plataforma;
 		

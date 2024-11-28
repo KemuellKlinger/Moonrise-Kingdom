@@ -1,5 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-estado = scr_inimigo_escolher_estado;
-hit = false;
+script_execute(estado)
+
+depth = -y;
+
+if vida <= 0{
+	instance_destroy();
+}

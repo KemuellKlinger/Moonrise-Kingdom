@@ -66,7 +66,3 @@ function inputPlayer() {
 }
 
 inputPlayer();
-
-if vida <= 0{
-	instance_destroy();
-}

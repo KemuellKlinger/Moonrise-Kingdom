@@ -12,8 +12,8 @@
   "name":"obj_direcional_direito",
   "overriddenProperties":[],
   "parent":{
-    "name":"Direcionais",
-    "path":"folders/Objetos/Modo Pataforma/Direcionais.yy",
+    "name":"Botões",
+    "path":"folders/Objetos/Modo Pataforma/Botões.yy",
   },
   "parentObjectId":null,
   "persistent":false,

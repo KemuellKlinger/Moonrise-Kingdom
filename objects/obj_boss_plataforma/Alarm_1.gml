@@ -1,5 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-estado = scr_inimigo_escolher_estado;
-hit = false;
+// Reseta o estado de "hit"
+estado_boss = scr_boss_escolher_estado;
+hit_boss = false;
