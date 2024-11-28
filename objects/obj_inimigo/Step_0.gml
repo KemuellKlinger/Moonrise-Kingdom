@@ -1,9 +1,8 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+/// @description Etapa
 
 script_execute(estado)
 
-//depth = -y;
+depth = -y;
 
 if vida <= 0{
 	instance_destroy();

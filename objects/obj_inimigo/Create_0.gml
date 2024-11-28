@@ -1,5 +1,4 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+/// @description Create
 randomize();
 
 estado = scr_inimigo_escolher_estado;

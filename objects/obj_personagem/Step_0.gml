@@ -1,5 +1,8 @@
 /// @description Controle principal do personagem
 
+if vida <= 0{
+	instance_destroy();
+}
 scr_personagem_colisao();
 
 //Src_colisao_perfeita();
@@ -38,3 +41,4 @@ if (distance_to_object(boss) <= distancia) {
     y = 276;
 	instance_destroy();
 }
+

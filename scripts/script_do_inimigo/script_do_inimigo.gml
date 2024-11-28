@@ -23,9 +23,11 @@ function scr_inimigo_checar_personagem(){
 	if distance_to_object(obj_personagem) <= dist_agressivo{
 		estado = src_inimigo_perseguindo;
 	}
-	if distance_to_object(obj_personagem_plataforma) <= dist_agressivo{
-		estado = src_inimigo_perseguindo;
-	}
+	//if distance_to_object(obj_personagem_plataforma) <= dist_agressivo{
+	//	estado = src_inimigo_perseguindo;
+	//}
+
+		
 }
 
 function scr_inimigo_escolher_estado(){
@@ -37,7 +39,7 @@ function scr_inimigo_escolher_estado(){
 		estado = scr_inimigo_andando;
 		
 		dest_x = irandom_range(0, room_width);
-		dest_y = irandom_range(0, room_height);
+		
 
 	}	else if prox_estado == scr_inimigo_parado{
 				estado = scr_inimigo_parado;
@@ -54,12 +56,12 @@ function scr_inimigo_andando(){
 		vveloc = lengthdir_y(veloc, _dir);
 		
 		 scr_inimigo_colisao();
-		}else{
+		}
 			x = dest_x;
 			y = dest_y;
 		}	
 
-}
+
 
 function scr_inimigo_parado(){
 	scr_inimigo_checar_personagem();
@@ -70,11 +72,12 @@ function src_inimigo_perseguindo(){
 	 var personagem_atual;
     if instance_exists(obj_personagem){
         personagem_atual = obj_personagem;
-    } else if instance_exists(obj_personagem_plataforma){
-        personagem_atual = obj_personagem_plataforma;
-    } else {
-        return; // Nenhum personagem na sala
-    }
+	}
+    //} else if instance_exists(obj_personagem_plataforma){
+    //    personagem_atual = obj_personagem_plataforma;
+    //} else {
+    //    return; // Nenhum personagem na sala
+    //}
 
     image_speed = 1.5;
     

@@ -1,5 +1,4 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+/// @description Alame 1
 
 estado = scr_inimigo_escolher_estado;
 hit = false;
