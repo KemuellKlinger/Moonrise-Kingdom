@@ -1,10 +1,10 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+///// @description Inserir descrição aqui
+//// Você pode escrever seu código neste editor
 
-script_execute(estado)
+//script_execute(estado)
 
-//depth = -y;
+////depth = -y;
 
-if vida <= 0{
-	instance_destroy();
-}
+//if vida <= 0{
+//	instance_destroy();
+//}
