@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bloco",
+  "%Name":"obj_player_plataforma",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bloco",
+  "name":"obj_player_plataforma",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bloco colisão",
-    "path":"folders/Objetos/Bloco colisão.yy",
+    "name":"Player",
+    "path":"folders/Objetos/Modo Pataforma/Player.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_entidade",
+    "path":"objects/obj_entidade/obj_entidade.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,9 +34,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bloco_colisao",
-    "path":"sprites/spr_bloco_colisao/spr_bloco_colisao.yy",
+    "name":"spr_personagem_parado_direita",
+    "path":"sprites/spr_personagem_parado_direita/spr_personagem_parado_direita.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_personagem_parado_direita",
+    "path":"sprites/spr_personagem_parado_direita/spr_personagem_parado_direita.yy",
+  },
   "visible":true,
 }

@@ -6,8 +6,8 @@
   "name":"obj_boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"Inimigos",
-    "path":"folders/Objetos/Inimigos.yy",
+    "name":"Boss",
+    "path":"folders/Objetos/Modo Pataforma/Boss.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bloco_colisao",
-    "path":"sprites/spr_bloco_colisao/spr_bloco_colisao.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
