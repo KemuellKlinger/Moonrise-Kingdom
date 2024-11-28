@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 randomize();
 
-estado = scr_inimigo_escolher_estado_mulher;
+estado = scr_inimigo_escolher_estado;
 
 prox_estado = 0;
 
@@ -21,7 +21,7 @@ dist_agressivo = 50;
 dist_nao_agressivo = 100;
 
 //Combate
-vida = 1;
+vida = 5;
 empurrar_dir = 0;
 empurrar_veloc = 0;
 hit = false;
