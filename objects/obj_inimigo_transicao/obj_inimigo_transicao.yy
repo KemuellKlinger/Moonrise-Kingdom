@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inimigo_mulher",
+  "%Name":"obj_inimigo_transicao",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -11,7 +11,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_personagem_plataforma","path":"objects/obj_personagem_plataforma/obj_personagem_plataforma.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_inimigo_mulher",
+  "name":"obj_inimigo_transicao",
   "overriddenProperties":[],
   "parent":{
     "name":"Inimigos",
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_slime_andando",
-    "path":"sprites/spr_slime_andando/spr_slime_andando.yy",
+    "name":"boss_parado",
+    "path":"sprites/boss_parado/boss_parado.yy",
   },
   "spriteMaskId":null,
   "visible":true,
