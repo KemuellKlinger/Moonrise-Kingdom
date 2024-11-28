@@ -138,7 +138,6 @@
     {"id":{"name":"obj_baixo_menu","path":"objects/obj_baixo_menu/obj_baixo_menu.yy",},},
     {"id":{"name":"obj_baixo","path":"objects/obj_baixo/obj_baixo.yy",},},
     {"id":{"name":"obj_bloco","path":"objects/obj_bloco/obj_bloco.yy",},},
-    {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
     {"id":{"name":"obj_bt_pause","path":"objects/obj_bt_pause/obj_bt_pause.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
