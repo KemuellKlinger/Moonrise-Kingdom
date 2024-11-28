@@ -17,10 +17,6 @@ if(!chao){
 		velv += GRAVIDADE * massa; 
 	}
 
-}else{
-	if(jump){
-		velv -= max_velv
-	}
 }
 
 
@@ -35,6 +31,11 @@ if(!chao){
 					estado = "movendo"; 
 				
 					}
+					
+					else if(jump){
+						estado = "pulando";
+						velv = -max_velv;
+					}
 				}break;
 			
             case "movendo": {
@@ -43,9 +44,37 @@ if(!chao){
 				if(abs(velh) < .1){
 					estado = "parado";
 					velh = 0;
+				}else if(jump){
+					estado = "pulando";
+					velv = -max_velv;
+					}
+				
+				break;
+				
 				}
 				
-				} break;
+			case "pulando":{
+				
+				if(velv > 0){
+					sprite_index = spr_andando_baixo;
+				}else{
+					sprite_index = spr_andando_cima;
+					
+					if(image_index >= image_number - 1){
+						
+						image_index = image_number - 1
+					}
+				}
+				
+				if(chao){
+					estado = "parado";
+					velh = 0;
+				}
+		
+				break;
+		}
+
           
         }
-
+		
+		
