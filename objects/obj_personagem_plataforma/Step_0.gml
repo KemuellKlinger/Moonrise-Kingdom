@@ -44,7 +44,7 @@ function inputPlayer() {
             quant_pulo--;
         }
 
-        vel_vest += gravidade;
+        vel_vest += 0.2;
 
         if (quant_pulo == (max_pulo - 1)) {
             sprite_index = sprite_jump;

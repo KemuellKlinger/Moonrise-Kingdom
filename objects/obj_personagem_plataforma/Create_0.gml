@@ -2,12 +2,11 @@
 event_inherited();
 
 velocidade = 1;
-forcaPulo = -8;
+forcaPulo = -3;
 quant_pulo = 0;
 max_pulo = 2;
 
 input_direcaoX = 0; // 0 = parado, -1 = esquerda, 1 = direita
-
 
 sprite_run = spr_andando_direita;
 sprite_idle = spr_personagem_parado_direita;
