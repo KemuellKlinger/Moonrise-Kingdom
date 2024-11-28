@@ -11,7 +11,6 @@
     {"name":"inst_797F5607","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_340A871B","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_71DECCB6","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_40118BCA","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_3AC67DA7","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_5F552F67","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_5B5F26A4","path":"rooms/Room2/Room2.yy",},
@@ -339,7 +338,6 @@
         {"$GMRInstance":"v1","%Name":"inst_797F5607","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_797F5607","objectId":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":512.0,"y":416.0,},
         {"$GMRInstance":"v1","%Name":"inst_340A871B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_340A871B","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":224.0,},
         {"$GMRInstance":"v1","%Name":"inst_71DECCB6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71DECCB6","objectId":{"name":"obj_joystick","path":"objects/obj_joystick/obj_joystick.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":480.0,},
-        {"$GMRInstance":"v1","%Name":"inst_40118BCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40118BCA","objectId":{"name":"obj_ataque","path":"objects/obj_ataque/obj_ataque.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.23333333,"scaleY":0.23333333,"x":192.0,"y":352.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Arvores_Tronco","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Arvores_Tronco","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":45,"SerialiseWidth":80,"TileCompressedData":[
           -7,-2147483648,3,14,15,16,-43,-2147483648,3,5,6,7,-4,-2147483648,3,29,30,31,-3,-2147483648,8,53,54,55,

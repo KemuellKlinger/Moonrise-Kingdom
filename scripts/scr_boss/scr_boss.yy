@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"funcoes",
+  "%Name":"scr_boss",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"funcoes",
+  "name":"scr_boss",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Src Boss",
+    "path":"folders/Scripts/Src Boss.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

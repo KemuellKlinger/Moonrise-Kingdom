@@ -4,7 +4,8 @@ var key_pause = keyboard_check_pressed(vk_escape);
 
 if (key_pause) {
     if (room != RoomPause) {  // Se não estamos na sala de pausa
-        if (instance_exists(obj_personagem)) {  // Verifica se o personagem existe
+        if (instance_exists(obj_personagem)) {
+			global.sala_anterior = room;// Verifica se o personagem existe
             obj_personagem.persistent = false;  // Torna o personagem não persistente (opcional)
             isPause = true;  // Marca que o jogo está em pausa
             instance_activate_all();  // Ativa todos os objetos na sala

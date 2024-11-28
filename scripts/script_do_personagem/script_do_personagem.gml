@@ -31,28 +31,34 @@ function scr_personagem_andando() {
         }
     }
      //Verifica ataque (opcional)
-    if (obj_ataque.clicado == true) {
-        image_index = 0; // Reinicia a animação
-        switch (dir) {
-            case "direita": sprite_index = spr_personagem_atacando_direita; break;
-            case "cima": sprite_index = spr_personagem_atacando_cima; break;
-            case "esquerda": sprite_index = spr_personagem_atacando_esquerda; break;
-            case "baixo": sprite_index = spr_personagem_atacando_baixo; break;
+if mouse_check_button_pressed(mb_left){
+		image_index = 0;
+		 switch (dir) {
+            default:
+                sprite_index = spr_personagem_atacando_direita;
+                break;
+            case  "cima":
+                sprite_index = spr_personagem_atacando_cima;
+                break;
+            case  "esquerda":
+                sprite_index = spr_personagem_atacando_esquerda;
+                break;
+            case "baixo":
+                sprite_index = spr_personagem_atacando_baixo;
+                break;
         }
-        estado = scr_personagem_atacando; // Troca para o estado de ataque
-    }
+		estado = scr_personagem_atacando;
+	}
+	
+	
 }
-
 
 function scr_personagem_atacando() {
     // Impede o ataque se o joystick estiver ativo
     if (global.usando_joystick) {
         estado = scr_personagem_andando;
-		if(obj_ataque.clicado == true){
-			atacar = true;
-		}else{
-			atacar = false;
-		}
+		atacar = true;
+		global.usando_joystick = false;
         return; // Sai do script para evitar criar a hitbox
     }
 
@@ -72,7 +78,8 @@ function scr_personagem_atacando() {
     if (image_index >= sprite_get_number(sprite_index) - 2) {
         estado = scr_personagem_andando;
         atacar = false;
-		obj_ataque.clicado = false;
+		global.usando_joystick = true;
+		
     }
 }
 
