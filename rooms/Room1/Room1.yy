@@ -148,6 +148,7 @@
     {"name":"inst_7D6A966A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_DD9C1D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_307846D","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_48735E81","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -351,6 +352,7 @@
         {"$GMRInstance":"v1","%Name":"inst_1B3C1811","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B3C1811","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-19.0,"y":122.0,},
         {"$GMRInstance":"v1","%Name":"inst_9A93AF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9A93AF0","objectId":{"name":"obj_joystick","path":"objects/obj_joystick/obj_joystick.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-19.0,"y":157.0,},
         {"$GMRInstance":"v1","%Name":"inst_307846D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_307846D","objectId":{"name":"obj_bt_pause","path":"objects/obj_bt_pause/obj_bt_pause.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":126.0,"y":113.0,},
+        {"$GMRInstance":"v1","%Name":"inst_48735E81","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_48735E81","objectId":{"name":"obj_inimigo_transicao","path":"objects/obj_inimigo_transicao/obj_inimigo_transicao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":160.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Arvores_Tronco","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Arvores_Tronco","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":45,"SerialiseWidth":80,"TileCompressedData":[
           -7,-2147483648,3,14,15,16,-47,-2147483648,3,14,15,16,-3,-2147483648,16,14,15,16,-2147483648,5,6,7,-2147483648,

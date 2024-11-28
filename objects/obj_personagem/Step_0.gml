@@ -27,17 +27,17 @@ switch (estado) {
         break;
 }
 
-////// Controle para transição de sala e posicionamento
-//var distancia = 50;
-//var boss = obj_boss;
+//// Controle para transição de sala e posicionamento
+var distancia = 10;
+var boss = obj_inimigo_transicao;
 
-//if (distance_to_object(boss) <= distancia) {
-//    room_goto(rm_batalha_plataforma);
-//    x = 86;
-//    y = 276;
-//	instance_destroy();
-//}
+if (distance_to_object(boss) <= distancia) {
+    room_goto(rm_batalha_plataforma);
+    x = 86;
+    y = 276;
+	instance_destroy();
+}
 
-//if vida <=0{
-//	instance_destroy();
-//}
+if vida <=0{
+	instance_destroy();
+}
