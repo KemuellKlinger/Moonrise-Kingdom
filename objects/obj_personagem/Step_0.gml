@@ -2,6 +2,10 @@
 
 scr_personagem_colisao();
 
+
+depth = -y;
+
+
 //Src_colisao_perfeita();
 
 //Limpa pequenas velocidades residuais (se necessário)
