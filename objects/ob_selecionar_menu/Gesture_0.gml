@@ -6,6 +6,9 @@ if(obj_menu.index == 0){
 
 }else if(obj_menu.index == 2){
 	room_goto(RoomConfig);
-}else if(obj_menu.index == 3){
+}else if(obj_menu.index == 3) {
+	room_goto(RoomCreditos);
+}
+else if(obj_menu.index == 4){
 	game_end();
 }

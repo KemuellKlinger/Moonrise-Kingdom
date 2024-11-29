@@ -18,7 +18,7 @@ for(var cont = 0; cont < op_maxima; cont++){
 	}else{
 		draw_set_color(c_white);
 	}
-	draw_text(x1 + 10,y1 + 55 + (dist * cont), opcoes[cont])
+	draw_text(x1 + 10,y1 + 37 + (dist * cont), opcoes[cont])
 
 } 
 
