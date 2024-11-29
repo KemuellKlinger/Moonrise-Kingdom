@@ -15,6 +15,7 @@
     {"name":"inst_16A41C","path":"rooms/rm_batalha_plataforma/rm_batalha_plataforma.yy",},
     {"name":"inst_42FE9BFF","path":"rooms/rm_batalha_plataforma/rm_batalha_plataforma.yy",},
     {"name":"inst_7055B559","path":"rooms/rm_batalha_plataforma/rm_batalha_plataforma.yy",},
+    {"name":"inst_3DC2D1B","path":"rooms/rm_batalha_plataforma/rm_batalha_plataforma.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -28,6 +29,7 @@
         {"$GMRInstance":"v1","%Name":"inst_16A41C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_16A41C","objectId":{"name":"obj_direcional_pulo","path":"objects/obj_direcional_pulo/obj_direcional_pulo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":160.0,},
         {"$GMRInstance":"v1","%Name":"inst_42FE9BFF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_42FE9BFF","objectId":{"name":"obj_player_plataforma","path":"objects/obj_player_plataforma/obj_player_plataforma.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":160.0,},
         {"$GMRInstance":"v1","%Name":"inst_7055B559","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7055B559","objectId":{"name":"obj_botao_ataque","path":"objects/obj_botao_ataque/obj_botao_ataque.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3DC2D1B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DC2D1B","objectId":{"name":"obj_inimigo_cavaleiro","path":"objects/obj_inimigo_cavaleiro/obj_inimigo_cavaleiro.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Chao","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Chao","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":45,"SerialiseWidth":80,"TileCompressedData":[
           -1520,0,-80,2,2000,54,55,56,54,55,56,54,55,56,54,55,56,54,55,56,54,55,56,54,55,56,54,55,56,54,55,56,
