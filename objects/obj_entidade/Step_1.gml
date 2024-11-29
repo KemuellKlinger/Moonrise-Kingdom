@@ -9,3 +9,5 @@ if(position_meeting(mouse_x, mouse_y, id)){
 		mostra_estado = !mostra_estado;
 	}
 }
+
+image_speed = velocidade_img / room_speed;
