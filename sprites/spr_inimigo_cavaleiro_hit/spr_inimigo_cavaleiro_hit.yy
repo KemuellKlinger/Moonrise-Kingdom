@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":79,
   "bbox_left":37,
-  "bbox_right":65,
+  "bbox_right":64,
   "bbox_top":42,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,23 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3278c49b-6c93-45ad-aafd-485658cdd162","name":"3278c49b-6c93-45ad-aafd-485658cdd162","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"80f90195-d48e-4915-bf90-a9a8a4275b6b","name":"80f90195-d48e-4915-bf90-a9a8a4275b6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d6b22257-dad0-48e7-a89e-a743bb47c1f7","name":"d6b22257-dad0-48e7-a89e-a743bb47c1f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"fac88f3a-c3a0-4029-8749-bb7e36af95e6","name":"fac88f3a-c3a0-4029-8749-bb7e36af95e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":80,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"983122c1-035f-4b17-ab13-069f843e54fd","blendMode":0,"displayName":"default","isLocked":false,"name":"983122c1-035f-4b17-ab13-069f843e54fd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1a8d4f66-d67f-4f97-8585-06f7e27bdf5d","blendMode":0,"displayName":"default","isLocked":false,"name":"1a8d4f66-d67f-4f97-8585-06f7e27bdf5d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_inimigo_cavaleiro_hit",
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Cavaleiro",
-    "path":"folders/Objetos/Modo Pataforma/Inimigos/Cavaleiro.yy",
+    "name":"Inimigos Plataforma",
+    "path":"folders/Sprites/Inimigos Plataforma.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -51,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -61,7 +59,7 @@
     },
     "name":"spr_inimigo_cavaleiro_hit",
     "playback":1,
-    "playbackSpeed":7.0,
+    "playbackSpeed":10.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -71,14 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3278c49b-6c93-45ad-aafd-485658cdd162","path":"sprites/spr_inimigo_cavaleiro_hit/spr_inimigo_cavaleiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"49f07dcf-e738-448a-b7db-1468b9ffa29d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"80f90195-d48e-4915-bf90-a9a8a4275b6b","path":"sprites/spr_inimigo_cavaleiro_hit/spr_inimigo_cavaleiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8dcab850-c111-48a2-b1c7-f7143c7510fc","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d6b22257-dad0-48e7-a89e-a743bb47c1f7","path":"sprites/spr_inimigo_cavaleiro_hit/spr_inimigo_cavaleiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c8082b45-a32b-498d-a37e-0f8e7c82741d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fac88f3a-c3a0-4029-8749-bb7e36af95e6","path":"sprites/spr_inimigo_cavaleiro_hit/spr_inimigo_cavaleiro_hit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"08e8efa3-d440-4b64-8b99-8c80d53856e8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

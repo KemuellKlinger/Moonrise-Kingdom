@@ -9,8 +9,8 @@
   "name":"obj_inimigo_cavaleiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Inimigos",
-    "path":"folders/Objetos/Inimigos.yy",
+    "name":"Cavaleiro",
+    "path":"folders/Objetos/Modo Pataforma/Inimigos/Cavaleiro.yy",
   },
   "parentObjectId":{
     "name":"obj_entidade",
@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_inimigo_cavaleiro_parado",
-    "path":"sprites/spr_inimigo_cavaleiro_parado/spr_inimigo_cavaleiro_parado.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

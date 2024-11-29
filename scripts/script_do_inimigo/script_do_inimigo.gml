@@ -23,9 +23,9 @@ function scr_inimigo_checar_personagem(){
 	if distance_to_object(obj_personagem) <= dist_agressivo{
 		estado = src_inimigo_perseguindo;
 	}
-	if distance_to_object(obj_player_plataforma) <= dist_agressivo{
-		estado = src_inimigo_perseguindo;
-	}
+	//if distance_to_object(obj_player_plataforma) <= dist_agressivo{
+	//	estado = src_inimigo_perseguindo;
+	//}
 }
 
 function scr_inimigo_escolher_estado(){
@@ -95,11 +95,11 @@ function src_inimigo_perseguindo(){
 
 function scr_inimigo_hit(){
 	
-	empurrar_veloc = lerp(empurrar_veloc, 0, 0.02);
+	//empurrar_veloc = lerp(empurrar_veloc, 0, 0.02);
 	
-	hveloc = lengthdir_x(empurrar_veloc, empurrar_dir);
-	vveloc = lengthdir_y(empurrar_veloc, empurrar_dir);
+	//hveloc = lengthdir_x(empurrar_veloc, empurrar_dir);
+	//vveloc = lengthdir_y(empurrar_veloc, empurrar_dir);
 	
-	scr_inimigo_colisao();
+	//scr_inimigo_colisao();
 
 }
