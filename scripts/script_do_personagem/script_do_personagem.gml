@@ -86,7 +86,7 @@ function scr_personagem_atacando() {
 // Atualização na função de colisão (ou no "hit")
 function scr_personagem_hit() {
     if (alarm[0] > 0) {
-        // Quando o personagem é atingido, ele é empurrado na direção de 'empurrar_dir'
+         //Quando o personagem é atingido, ele é empurrado na direção de 'empurrar_dir'
         hveloc = lengthdir_x(3, empurrar_dir); // Empurrar horizontalmente
         vveloc = lengthdir_y(3, empurrar_dir); // Empurrar verticalmente
 		
