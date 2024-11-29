@@ -23,7 +23,7 @@ function scr_inimigo_checar_personagem(){
 	if distance_to_object(obj_personagem) <= dist_agressivo{
 		estado = src_inimigo_perseguindo;
 	}
-	if distance_to_object(obj_personagem_plataforma) <= dist_agressivo{
+	if distance_to_object(obj_player_plataforma) <= dist_agressivo{
 		estado = src_inimigo_perseguindo;
 	}
 }
@@ -70,8 +70,8 @@ function src_inimigo_perseguindo(){
 	 var personagem_atual;
     if instance_exists(obj_personagem){
         personagem_atual = obj_personagem;
-    } else if instance_exists(obj_personagem_plataforma){
-        personagem_atual = obj_personagem_plataforma;
+    } else if instance_exists(obj_player_plataforma){
+        personagem_atual = obj_player_plataforma;
     } else {
         return; // Nenhum personagem na sala
     }
