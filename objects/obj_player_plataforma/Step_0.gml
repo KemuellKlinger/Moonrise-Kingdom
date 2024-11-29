@@ -44,10 +44,24 @@ if(!chao){
 			
 	case "ataque":{
 		velh = 0;
-		sprite_index = spr_personagem_atacando_direita;
+		
+		if(combo == 0){
+			sprite_index = spr_personagem_atacando_direita;
+		}else if(combo == 1){
+			sprite_index = spr_personagem_atacando_baixo;
+		}else if(combo == 2){
+			sprite_index = spr_personagem_atacando_cima;
+		}
+		
+		if(attack && combo < 2 && image_index >= image_number-2){
+			combo ++;
+			image_index = 0;
+		}
 		
 		if(image_index > image_number - 1){
-			estado = "parado"
+			estado = "parado";
+			velh = 0;
+			combo = 0;
 		}
 	}break;
 			
