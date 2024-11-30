@@ -13,10 +13,3 @@ max_velv = 1;
 timer_estado = 0;
 
 dist = 30;
-
-dano = noone
-ataque = 1;
-
-posso = true;
-
-estado_inimigo = scr_inimigo_checar_personagem_plataforma;

@@ -1,37 +1,20 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-var distancia_ativa = 100;
-var velocidade = 1;        
-
-// Verificar se o player existe
-if (instance_exists(obj_player_plataforma)) {
-	
-    var dx = obj_player_plataforma.x - x;
-    var dy = obj_player_plataforma.y - y;
-    var distancia = point_distance(x, y, obj_player_plataforma.x, obj_player_plataforma.y);
-
-  
-    if (distancia <= distancia_ativa) {
-        var angulo = point_direction(x, y, obj_player_plataforma.x, obj_player_plataforma.y);
-        x += lengthdir_x(velocidade, angulo);
-        y += lengthdir_y(velocidade, angulo);
-
-        if (dx > 0) {
-            image_xscale = 1; // Direita
-			
-        } else if (dx < 0) {
-            image_xscale = -1; // Esquerda
-        }
-    }
-}
-
-
 var chao = place_meeting(x, y +1, obj_bloco);
 
 if(!chao){
 	velv += GRAVIDADE * massa;
 }
+
+//if(mouse_check_button_pressed(mb_right)){
+//	estado = "attack";
+//}
+
+//Diferente mais igual, NÂO MEXA!!!!!
+//scr_ataque_player_plataforma(obj_player_plataforma, dist, xscale);
+
+
 
 switch(estado){
 	case "parado":{
@@ -61,6 +44,7 @@ switch(estado){
 	
 		case "walk":{
 			
+		
 		timer_estado++;
 		if(sprite_index != spr_inimigo_cavaleiro_andando){
 			image_index = 0;
@@ -79,44 +63,15 @@ switch(estado){
 	
 	case "attack":{
 		velh = 0;
-		if(sprite_index != spr_inimigo_cavaleiro_ataque2){
+		if(sprite_index != spr_inimigo_cavaleiro_atacando){
 			image_index = 0;
-			posso = true;
 		}
 		
-		sprite_index = spr_inimigo_cavaleiro_ataque2;
+		sprite_index = spr_inimigo_cavaleiro_atacando;
 		
 		if (image_index > image_number - 1){
 			estado = "parado";
-			posso = true;
-			if(dano){
-				instance_destroy(dano, false);
-				dano = noone;
-			}
 		}
-			
-		//Criando o dano
-		
-		if (image_index >= 2 && dano == noone && image_index <= 4 && posso){
-			dano = instance_create_layer(x + sprite_width/4, y - sprite_height /4, layer, obj_dano);
-			dano.dano = ataque;
-			dano.pai = id;
-			posso = false;
-			if(obj_player_plataforma.vida_atual > 0){
-				obj_player_plataforma.estado = "hit";
-			obj_player_plataforma.vida_atual -= ataque;
-			}else{
-				estado = "parado";
-			}
-			
-		}
-		
-		if(dano != noone && image_index >= 4 && image_index <=8){
-			instance_destroy(dano);
-			dano = noone;
-		}
-		
-
 		break;
 	}
 	
@@ -124,7 +79,7 @@ switch(estado){
 		
 		if(sprite_index != spr_inimigo_cavaleiro_hit){
 			image_index = 0;
-		
+			//vida_atual--;
 		}
 		sprite_index = spr_inimigo_cavaleiro_hit;
 		
@@ -138,6 +93,7 @@ switch(estado){
 				estado = "morto";
 			}
 		}
+		
 		break;
 	}
 	
@@ -153,6 +109,7 @@ switch(estado){
 			image_alpha -= .01
 			
 			if(image_alpha <= 0) instance_destroy();
+				
 			
 		}
 		

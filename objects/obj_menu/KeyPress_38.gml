@@ -2,6 +2,8 @@
 // Você pode escrever seu código neste editor
 index--;
 
-if(index <= 0){
-	index = 0;
+if(index < 0){
+    index = 0;
 }
+
+
