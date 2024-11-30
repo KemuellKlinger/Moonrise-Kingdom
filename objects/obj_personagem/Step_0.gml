@@ -38,6 +38,26 @@ if (distance_to_object(boss) <= distancia) {
 	instance_destroy();
 }
 
+// Verificar se o personagem está se movendo
+var is_moving = (hveloc != 0 || vveloc != 0);
+
+if (is_moving) {
+    if (!audio_is_playing(running_on_concrete)) {
+        audio_play_sound(running_on_concrete, 1, true, 0.8); // Toca o som com o pitch calculado
+    }
+	if (room == rm_batalha_plataforma){
+		audio_stop_sound(running_on_concrete);
+	}else {
+        // Se o som já estiver tocando, ajustar o pitch dinamicamente
+        audio_sound_pitch(running_on_concrete, 0.8); // Altera o pitch do som em loop
+    }
+} else {
+    if (audio_is_playing(running_on_concrete)) {
+        audio_stop_sound(running_on_concrete); // Para o som
+    }
+}
+
+
 if vida <=0{
 	instance_destroy();
 }
