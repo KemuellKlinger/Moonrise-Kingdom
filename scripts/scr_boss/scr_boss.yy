@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_boss",
   "parent":{
-    "name":"Src Boss",
-    "path":"folders/Scripts/Src Boss.yy",
+    "name":"Src_Boss",
+    "path":"folders/Scripts/Src_Boss.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

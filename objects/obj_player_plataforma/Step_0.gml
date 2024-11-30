@@ -159,9 +159,23 @@ if(!chao){
 		break;
 	}
 
-	#endregion
-          
+	#endregion     
 	}
-		
+
+// Verificar se o personagem está se movendo
+var is_moving = (right != 0 || left != 0);
+
+if (is_moving) {
+	if (!audio_is_playing(running_on_concrete)) {
+        audio_play_sound(running_on_concrete, 1, true, 0.8); // Toca o som com o pitch calculado
+    }else {
+        // Se o som já estiver tocando, ajustar o pitch dinamicamente
+        audio_sound_pitch(running_on_concrete, 0.8); // Altera o pitch do som em loop
+    }
+} else {
+    if (audio_is_playing(running_on_concrete)) {
+        audio_stop_sound(running_on_concrete); // Para o som
+    }
+}
 if(keyboard_check(vk_enter)) room_restart();
 	
