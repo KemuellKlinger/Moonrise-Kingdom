@@ -10,5 +10,7 @@ if (outro){
 			outro.vida_atual -= dano;
 			instance_destroy();
 		}
+		
+		
 	}
 }

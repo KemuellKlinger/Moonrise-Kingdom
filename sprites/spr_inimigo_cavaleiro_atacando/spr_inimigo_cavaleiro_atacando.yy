@@ -14,10 +14,8 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"cd5e100d-8c0a-452a-9cc1-ed689163353d","name":"cd5e100d-8c0a-452a-9cc1-ed689163353d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"6848803c-6f4f-431e-a99a-89fdc2041df9","name":"6848803c-6f4f-431e-a99a-89fdc2041df9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3950959d-9bc3-4634-a3ea-241d0ad20990","name":"3950959d-9bc3-4634-a3ea-241d0ad20990","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"059bb9de-e4d0-429a-97ec-3e8e031345c0","name":"059bb9de-e4d0-429a-97ec-3e8e031345c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"4a5c821b-80c6-465e-b5af-289afa64bc73","name":"4a5c821b-80c6-465e-b5af-289afa64bc73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fb2b0724-a5be-4359-ba0d-066f42b4bf72","name":"fb2b0724-a5be-4359-ba0d-066f42b4bf72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"059bb9de-e4d0-429a-97ec-3e8e031345c0","name":"059bb9de-e4d0-429a-97ec-3e8e031345c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -54,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":6.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -80,17 +78,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6848803c-6f4f-431e-a99a-89fdc2041df9","path":"sprites/spr_inimigo_cavaleiro_atacando/spr_inimigo_cavaleiro_atacando.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d4703deb-13ed-4bef-9dc7-7f79e80c89c6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3950959d-9bc3-4634-a3ea-241d0ad20990","path":"sprites/spr_inimigo_cavaleiro_atacando/spr_inimigo_cavaleiro_atacando.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"55473926-d063-442d-b24b-9f1642d62cf1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a5c821b-80c6-465e-b5af-289afa64bc73","path":"sprites/spr_inimigo_cavaleiro_atacando/spr_inimigo_cavaleiro_atacando.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"21e3a381-8271-4631-820f-3a1e5e54ee91","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"059bb9de-e4d0-429a-97ec-3e8e031345c0","path":"sprites/spr_inimigo_cavaleiro_atacando/spr_inimigo_cavaleiro_atacando.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c8e1c0e9-ee13-4ca0-836d-3d4c4771b354","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a5c821b-80c6-465e-b5af-289afa64bc73","path":"sprites/spr_inimigo_cavaleiro_atacando/spr_inimigo_cavaleiro_atacando.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"21e3a381-8271-4631-820f-3a1e5e54ee91","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fb2b0724-a5be-4359-ba0d-066f42b4bf72","path":"sprites/spr_inimigo_cavaleiro_atacando/spr_inimigo_cavaleiro_atacando.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4180d50d-fddf-445e-b5ba-eb2194dfe10b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
