@@ -1,23 +1,26 @@
 // Limpar o fundo com uma cor sólida
-draw_clear(c_black); // Cor preta de fundo
+draw_clear(c_black);
 
 // Definir cor e alinhamento do texto
 draw_set_color(c_white);
 draw_set_halign(fa_center);
-draw_set_valign(fa_top); // O texto começará a partir do topo
+draw_set_valign(fa_top);
+draw_set_font(ft_menu);
 
-// Texto dos créditos
-texto_creditos = 
-    "Jogo criado por:\n" +
-    "Infinity Games\n\n" +
-    "Design e Arte:\n" +
-    "João Victor dos Reis\n\n" +
-    "Programação:\n" +
-    "Naum Leal e Kemuell Klinger\n\n" +
-    "Obrigado por jogar!";
+if (estado == "creditos") {
+    // Desenha os créditos
+    draw_text(room_width / 2, posicao_y, texto_creditos);
+}
+else if (estado == "agradecimentos" || estado == "fadeout") {
+    // Aplica a opacidade ao texto dos agradecimentos
+    draw_set_alpha(opacidade);
+    draw_text(room_width / 2, room_height / 2 - string_height(texto_agradecimentos) / 2, texto_agradecimentos);
+    draw_set_alpha(1); // Restaura a opacidade padrão
+}
 
-// Desenhar texto em posição variável
-draw_text(room_width / 2, posicao_y, texto_creditos);
-
-// Instrução para sair
-draw_text(room_width / 2, room_height - 50, "Pressione ESC para voltar ao menu.");
+// Instrução para sair (aparece durante os agradecimentos)
+if (estado == "agradecimentos" || estado == "fadeout") {
+    draw_set_alpha(opacidade);
+    draw_text(room_width / 2, room_height - 50, "Pressione ESC para voltar ao menu.");
+    draw_set_alpha(1);
+}

@@ -15,9 +15,7 @@ mostra_estado = true;
 
 combo = 0;
 dano = noone;
-
 ataque = 1;
 posso = true;
-
 ataque_mult = 1;
 ataque_buffer = room_speed;

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_ataque_player_plataforma",
   "parent":{
-    "name":"Scr pPersonagem Plataforma",
-    "path":"folders/Scripts/Scr pPersonagem Plataforma.yy",
+    "name":"Moonrise Kingdom",
+    "path":"Moonrise Kingdom.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
