@@ -19,4 +19,3 @@ ataque = 1;
 
 posso = true;
 
-estado_inimigo = scr_inimigo_checar_personagem_plataforma;
