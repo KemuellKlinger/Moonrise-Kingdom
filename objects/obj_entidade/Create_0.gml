@@ -15,7 +15,7 @@ ataque = 1;
 
 xscale = 1;
 
-velocidade_img = 60;
+velocidade_img = 50;
 mostra_estado = false;
 
 estado = "parado";
