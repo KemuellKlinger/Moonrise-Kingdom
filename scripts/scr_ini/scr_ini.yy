@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_ini",
   "parent":{
-    "name":"Scr_Personagem Plataforma",
-    "path":"folders/Scripts/Scr_Personagem Plataforma.yy",
+    "name":"Scr pPersonagem Plataforma",
+    "path":"folders/Scripts/Scr pPersonagem Plataforma.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

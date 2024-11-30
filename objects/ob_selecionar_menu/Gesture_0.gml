@@ -12,6 +12,3 @@ if(obj_menu.index == 0){
 else if(obj_menu.index == 4){
 	game_end();
 }
-
-// Tocar som do menu
-audio_play_sound(menu_button_user_interface_pack, 1, false);

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"boss_parado",
-    "path":"sprites/boss_parado/boss_parado.yy",
+    "name":"spr_inimigo_cavaleiro_andando",
+    "path":"sprites/spr_inimigo_cavaleiro_andando/spr_inimigo_cavaleiro_andando.yy",
   },
   "spriteMaskId":null,
   "visible":true,

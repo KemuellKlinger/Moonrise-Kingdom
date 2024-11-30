@@ -27,7 +27,7 @@ if(!chao){
 
 //maquinas de estados
 
- switch (estado) {
+ switch (estado) { 
 	 
 	 #region parado
 	case "parado":{
@@ -51,8 +51,6 @@ if(!chao){
 	
 	#endregion
 	
-
-	
 	#region ataque
 			
 	case "ataque":{
@@ -67,9 +65,10 @@ if(!chao){
 			sprite_index = spr_personagem_atacando_cima;
 		}
 		
+		//Criando dano do player
 		if(image_index >= 2 && dano == noone && posso){
 			dano = instance_create_layer(x + sprite_width/2, y- sprite_height/2, layer, obj_dano);
-			dano.dano = ataque *ataque_mult;
+			dano.dano = ataque * ataque_mult;
 			dano.pai = id;
 			posso = false;
 		}
@@ -91,6 +90,7 @@ if(!chao){
 			
 			ataque_buffer = 0;
 		}
+		
 		
 		if(image_index > image_number - 1){
 			estado = "parado";
@@ -133,7 +133,7 @@ if(!chao){
 				
 		break;
 				
-		}
+	}
 		
 		#endregion
 				
@@ -159,23 +159,55 @@ if(!chao){
 		break;
 	}
 
-	#endregion     
+	#endregion
+	
+	case "hit":{
+		
+		if(sprite_index != spr_personagem_hit){
+			image_index = 0;
+			
+		}
+		sprite_index = spr_personagem_hit;
+		
+		if(vida_atual > 0){
+			if(	image_index > image_number - 1){
+				estado ="parado";
+			}
+		}		
+		else{
+			if(vida_atual <=0){
+				estado = "morto";
+			}
+		}
+		break;
 	}
-
-// Verificar se o personagem está se movendo
-var is_moving = (right != 0 || left != 0);
-
-if (is_moving) {
-	if (!audio_is_playing(running_on_concrete)) {
-        audio_play_sound(running_on_concrete, 1, true, 0.8); // Toca o som com o pitch calculado
-    }else {
-        // Se o som já estiver tocando, ajustar o pitch dinamicamente
-        audio_sound_pitch(running_on_concrete, 0.8); // Altera o pitch do som em loop
-    }
-} else {
-    if (audio_is_playing(running_on_concrete)) {
-        audio_stop_sound(running_on_concrete); // Para o som
-    }
-}
+	case "morto":{
+		if(sprite_index != spr_inimigo_cavaleiro_morrendo){
+		image_index = 0;
+		obj_inimigo_cavaleiro.estado = "parado";
+		}
+		sprite_index = spr_inimigo_cavaleiro_morrendo
+		
+		if(image_index > image_number -1){
+			image_speed = 0;
+			image_alpha -= .01
+			
+			if(image_alpha <= 0 and vida_atual <=0) {
+				instance_destroy();
+				
+				
+			}
+				
+		}
+		
+		
+	}
+	
+	//Estado padrão	
+	//default: 
+	//	estado = "parado";
+          
+	}
+		
 if(keyboard_check(vk_enter)) room_restart();
 	

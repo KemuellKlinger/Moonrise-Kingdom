@@ -5,4 +5,3 @@ index++;
 if(index >= op_maxima){
 	index = op_maxima-1;
 }
-

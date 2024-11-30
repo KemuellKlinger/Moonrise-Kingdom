@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Vida",
-    "path":"folders/Objetos/Vida.yy",
+    "path":"folders/Vida.yy",
   },
   "parentObjectId":null,
   "persistent":false,
